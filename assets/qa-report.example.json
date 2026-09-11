@@ -1,0 +1,40 @@
+{
+  "artifact_type": "qa_report",
+  "version": "1.0",
+  "figure_id": "F1",
+  "checks": [
+    {
+      "category": "scientific",
+      "rule_class": "Skill 归纳规则",
+      "name": "source data traced",
+      "status": "pending",
+      "evidence": "Author data have not yet been supplied."
+    },
+    {
+      "category": "visual",
+      "rule_class": "文献/官方标准",
+      "name": "final-size rendered inspection",
+      "status": "pending",
+      "evidence": "No render exists."
+    },
+    {
+      "category": "file",
+      "rule_class": "Skill 归纳规则",
+      "name": "editable source retained",
+      "status": "not_applicable",
+      "evidence": "Rendering has not started."
+    }
+  ],
+  "unresolved": ["data", "uncertainty definition", "venue", "final width"],
+  "verdict": "provisional",
+  "provenance": {
+    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "official_sources": [
+      {
+        "title": "Nature Research Figure Guide",
+        "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+        "scope": "Nature-specific final-size, editable-text, panel, and accessibility checks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Paper Figures"
+  short_description: "Plan, design, render, and audit scholarly figures"
+  default_prompt: "Use $scientific-paper-figures to plan and create publication-ready figures for my paper."

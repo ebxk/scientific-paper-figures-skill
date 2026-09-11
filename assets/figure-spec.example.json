@@ -1,0 +1,57 @@
+{
+  "artifact_type": "figure_spec",
+  "version": "1.0",
+  "figure_id": "F1",
+  "claim": "The figure will compare the proposed method with a prespecified baseline after verified data are supplied.",
+  "evidence_sources": [
+    {
+      "id": "E1",
+      "status": "missing",
+      "source": "author-provided result table required"
+    }
+  ],
+  "layout": {
+    "rule_class": "Skill 归纳规则",
+    "reading_order": "left-to-right",
+    "panel_grid": "one row, two panels",
+    "final_width_mm": null
+  },
+  "panels": [
+    {
+      "id": "A",
+      "job": "show the primary comparison",
+      "encoding": "interval plot pending data audit",
+      "required_inputs": ["estimate", "interval", "sample unit"]
+    },
+    {
+      "id": "B",
+      "job": "show the outcome distribution",
+      "encoding": "distribution view pending raw observations",
+      "required_inputs": ["raw or appropriately aggregated observations"]
+    }
+  ],
+  "visual_system": {
+    "rule_class": "Skill 归纳规则",
+    "background": "white",
+    "font_role": "single standard sans-serif family",
+    "color_roles": ["neutral context", "baseline", "proposed"],
+    "color_redundancy": "direct labels and distinct marks"
+  },
+  "renderer": {
+    "rule_class": "Skill 归纳规则",
+    "backend": "project Python or R stack after inspection",
+    "editable_source": true
+  },
+  "outputs": ["editable source", "vector export", "raster QA preview"],
+  "open_questions": ["Target venue and final width are unknown."],
+  "provenance": {
+    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "official_sources": [
+      {
+        "title": "Ten Simple Rules for Better Figures",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833",
+        "scope": "message, truthful encoding, captions, and tool choice"
+      }
+    ]
+  }
+}

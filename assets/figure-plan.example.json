@@ -1,0 +1,47 @@
+{
+  "artifact_type": "figure_plan",
+  "version": "1.0",
+  "paper_profile": {
+    "logic": "method-model",
+    "audience": "research manuscript",
+    "venue": "not yet selected",
+    "submission_stage": "draft",
+    "evidence_status": "provisional"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "The proposed method changes the primary outcome relative to the prespecified baseline.",
+      "evidence_ids": ["E1"],
+      "status": "missing-data"
+    }
+  ],
+  "figures": [
+    {
+      "id": "F1",
+      "question": "How does the proposed method differ from the baseline on the primary outcome?",
+      "claim_ids": ["C1"],
+      "medium": "figure",
+      "rule_class": "领域模板",
+      "placement": "main-candidate",
+      "status": "provisional",
+      "required_inputs": ["primary outcome data", "baseline data", "uncertainty definition"],
+      "caption_claim": "Provisional caption claim; render only after evidence is supplied."
+    }
+  ],
+  "storyboard": ["F1"],
+  "open_questions": [
+    "Which journal and article type will receive the manuscript?",
+    "What is the unit of replication and uncertainty definition?"
+  ],
+  "provenance": {
+    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "official_sources": [
+      {
+        "title": "Ten Simple Rules for Better Figures",
+        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833",
+        "scope": "general message-first figure design"
+      }
+    ]
+  }
+}
