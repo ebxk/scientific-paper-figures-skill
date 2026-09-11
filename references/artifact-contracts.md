@@ -17,7 +17,7 @@ When a field encodes a normative decision rather than a factual claim, give the 
 The required rule-class strings are:
 
 ```json
-["文献/官方标准", "Skill 归纳规则", "领域模板"]
+["Literature/Official Standard", "Skill-Derived Heuristic", "Domain Template"]
 ```
 
 ## `figure_plan` v1.0

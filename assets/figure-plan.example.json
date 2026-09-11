@@ -22,7 +22,7 @@
       "question": "How does the proposed method differ from the baseline on the primary outcome?",
       "claim_ids": ["C1"],
       "medium": "figure",
-      "rule_class": "领域模板",
+      "rule_class": "Domain Template",
       "placement": "main-candidate",
       "status": "provisional",
       "required_inputs": ["primary outcome data", "baseline data", "uncertainty definition"],
@@ -35,7 +35,7 @@
     "What is the unit of replication and uncertainty definition?"
   ],
   "provenance": {
-    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "rule_classes": ["Literature/Official Standard", "Skill-Derived Heuristic", "Domain Template"],
     "official_sources": [
       {
         "title": "Ten Simple Rules for Better Figures",

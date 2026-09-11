@@ -17,7 +17,7 @@ Assign each input one status: `verified`, `author-stated`, `inferred`, or `missi
 
 ## 1. Classify the paper
 
-【Skill 归纳规则】Choose the closest logic, allowing hybrids:
+[Skill-Derived Heuristic] Choose the closest logic, allowing hybrids:
 
 | Paper logic | Typical evidence chain |
 |---|---|
@@ -31,9 +31,9 @@ This classification is a planning lens, not a journal taxonomy.
 
 ## 2. Build a Claim–Evidence Map
 
-【文献/官方标准】Start from the message and audience before drawing; PLOS frames these as the first two figure-design decisions. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833).
+[Literature/Official Standard] Start from the message and audience before drawing; PLOS frames these as the first two figure-design decisions. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833).
 
-【Skill 归纳规则】Create one row per claim:
+[Skill-Derived Heuristic] Create one row per claim:
 
 | Claim ID | Claim | Required evidence | Available evidence | Status | Candidate medium |
 |---|---|---|---|---|---|
@@ -43,7 +43,7 @@ Do not create a figure merely because a result exists. Every candidate visual mu
 
 ## 3. Decide Text vs Table vs Figure
 
-【Skill 归纳规则】Use:
+[Skill-Derived Heuristic] Use:
 
 - **Text** for a few values or a simple fact without a pattern to inspect.
 - **Table** when exact values, many fields, or lookup/comparison precision is primary.
@@ -64,7 +64,7 @@ For every candidate record:
 - target width/aspect ratio if known;
 - required inputs and unresolved decisions.
 
-【Skill 归纳规则】Do not prescribe a universal figure count. Generate enough candidates to cover the claim map, then merge, move, or remove them.
+[Skill-Derived Heuristic] Do not prescribe a universal figure count. Generate enough candidates to cover the claim map, then merge, move, or remove them.
 
 ## 5. Main text vs Appendix
 
@@ -78,9 +78,9 @@ Venue limits override these heuristics only after the exact official instruction
 
 ## 6. Build the Figure Storyboard
 
-【文献/官方标准】The American Physiological Society manuscript-development tutorial recommends organizing potential figures/tables around their main messages and reordering them into a coherent scientific story. See [Publishing Particulars, Part 2](https://journals.physiology.org/doi/full/10.1152/ajpregu.00267.2022).
+[Literature/Official Standard] The American Physiological Society manuscript-development tutorial recommends organizing potential figures/tables around their main messages and reordering them into a coherent scientific story. See [Publishing Particulars, Part 2](https://journals.physiology.org/doi/full/10.1152/ajpregu.00267.2022).
 
-【Skill 归纳规则】Order items by dependency, not by the time analyses were run. A common sequence is:
+[Skill-Derived Heuristic] Order items by dependency, not by the time analyses were run. A common sequence is:
 
 1. orientation or essential setup;
 2. primary evidence;

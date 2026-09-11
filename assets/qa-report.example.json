@@ -5,21 +5,21 @@
   "checks": [
     {
       "category": "scientific",
-      "rule_class": "Skill 归纳规则",
+      "rule_class": "Skill-Derived Heuristic",
       "name": "source data traced",
       "status": "pending",
       "evidence": "Author data have not yet been supplied."
     },
     {
       "category": "visual",
-      "rule_class": "文献/官方标准",
+      "rule_class": "Literature/Official Standard",
       "name": "final-size rendered inspection",
       "status": "pending",
       "evidence": "No render exists."
     },
     {
       "category": "file",
-      "rule_class": "Skill 归纳规则",
+      "rule_class": "Skill-Derived Heuristic",
       "name": "editable source retained",
       "status": "not_applicable",
       "evidence": "Rendering has not started."
@@ -28,7 +28,7 @@
   "unresolved": ["data", "uncertainty definition", "venue", "final width"],
   "verdict": "provisional",
   "provenance": {
-    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "rule_classes": ["Literature/Official Standard", "Skill-Derived Heuristic", "Domain Template"],
     "official_sources": [
       {
         "title": "Nature Research Figure Guide",

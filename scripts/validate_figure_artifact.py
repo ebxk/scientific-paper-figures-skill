@@ -10,7 +10,11 @@ from pathlib import Path
 from typing import Any
 
 
-RULE_CLASSES = {"文献/官方标准", "Skill 归纳规则", "领域模板"}
+RULE_CLASSES = {
+    "Literature/Official Standard",
+    "Skill-Derived Heuristic",
+    "Domain Template",
+}
 REQUIRED_FIELDS = {
     "figure_plan": {
         "artifact_type",

@@ -17,7 +17,7 @@ Inspect the project, data, existing figure sources, installed runtimes, and targ
 | Highly customized vector/data composition | SVG/D3 | a normal Python/R plot is simpler and equally reproducible |
 | Bitmap illustration | image generation only with explicit user intent | scientific topology, text, or data must be exact—then redraw as vector |
 
-【Skill 归纳规则】Renderer choice follows evidence, editability, reproducibility, collaborator tooling, and final venue—not a universal software hierarchy.
+[Skill-Derived Heuristic] Renderer choice follows evidence, editability, reproducibility, collaborator tooling, and final venue—not a universal software hierarchy.
 
 ## 3. Data truthfulness gate
 
@@ -32,7 +32,7 @@ Before plotting, record:
 
 Do not silently connect missing observations, suppress inconvenient points, interpolate measured data, or smooth a curve to strengthen a conclusion. Synthetic data is allowed only for an explicitly labeled demonstration that cannot be mistaken for evidence.
 
-【文献/官方标准】PLOS warns against misleading scales/encodings and emphasizes choosing a simple form that communicates the message. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833). For scientific images, the US Office of Research Integrity recommends preserving originals and documenting manipulations; see [image-processing guidelines](https://ori.hhs.gov/education/products/RIandImages/guidelines/list.html).
+[Literature/Official Standard] PLOS warns against misleading scales/encodings and emphasizes choosing a simple form that communicates the message. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833). For scientific images, the US Office of Research Integrity recommends preserving originals and documenting manipulations; see [image-processing guidelines](https://ori.hhs.gov/education/products/RIandImages/guidelines/list.html).
 
 ## 4. Build from an explicit specification
 

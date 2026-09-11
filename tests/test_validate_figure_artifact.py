@@ -23,6 +23,49 @@ def run_validator(payload: dict) -> subprocess.CompletedProcess[str]:
 
 
 class ValidateFigureArtifactTests(unittest.TestCase):
+    def test_accepts_english_rule_classes(self) -> None:
+        payload = {
+            "artifact_type": "figure_plan",
+            "version": "1.0",
+            "paper_profile": {},
+            "claims": [],
+            "figures": [],
+            "storyboard": [],
+            "open_questions": [],
+            "provenance": {
+                "rule_classes": [
+                    "Literature/Official Standard",
+                    "Skill-Derived Heuristic",
+                    "Domain Template",
+                ],
+                "official_sources": [],
+            },
+        }
+        result = run_validator(payload)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_rejects_legacy_chinese_rule_classes(self) -> None:
+        payload = {
+            "artifact_type": "figure_plan",
+            "version": "1.0",
+            "paper_profile": {},
+            "claims": [],
+            "figures": [],
+            "storyboard": [],
+            "open_questions": [],
+            "provenance": {
+                "rule_classes": [
+                    "\u6587\u732e/\u5b98\u65b9\u6807\u51c6",
+                    "Skill \u5f52\u7eb3\u89c4\u5219",
+                    "\u9886\u57df\u6a21\u677f",
+                ],
+                "official_sources": [],
+            },
+        }
+        result = run_validator(payload)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("rule_classes", result.stdout)
+
     def test_accepts_valid_example_artifacts(self) -> None:
         for name in (
             "figure-plan.example.json",
@@ -50,7 +93,10 @@ class ValidateFigureArtifactTests(unittest.TestCase):
             "figures": [],
             "storyboard": [],
             "open_questions": [],
-            "provenance": {"rule_classes": ["Skill 归纳规则"], "official_sources": []},
+            "provenance": {
+                "rule_classes": ["Skill-Derived Heuristic"],
+                "official_sources": [],
+            },
         }
         result = run_validator(payload)
         self.assertNotEqual(result.returncode, 0)
@@ -66,7 +112,11 @@ class ValidateFigureArtifactTests(unittest.TestCase):
             "storyboard": [],
             "open_questions": [],
             "provenance": {
-                "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+                "rule_classes": [
+                    "Literature/Official Standard",
+                    "Skill-Derived Heuristic",
+                    "Domain Template",
+                ],
                 "official_sources": [
                     {"title": "Example", "url": "http://example.com", "scope": "test"}
                 ],

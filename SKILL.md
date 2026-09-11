@@ -13,9 +13,9 @@ Build the visual argument from claims and evidence before choosing a renderer. A
 
 Use these labels in plans, specifications, audits, and recommendations:
 
-- 【文献/官方标准】: directly supported by a linked paper, publisher, journal, or authoritative body. State its scope; a Nature rule is not universal.
-- 【Skill 归纳规则】: an operational heuristic synthesized for this skill. Never call it a submission requirement.
-- 【领域模板】: a starting pattern for a research domain. Adapt it to the manuscript and evidence.
+- [Literature/Official Standard]: directly supported by a linked paper, publisher, journal, or authoritative body. State its scope; a Nature rule is not universal.
+- [Skill-Derived Heuristic]: an operational heuristic synthesized for this skill. Never call it a submission requirement.
+- [Domain Template]: a starting pattern for a research domain. Adapt it to the manuscript and evidence.
 
 Every normative list, table, or numeric recommendation must sit under one of these labeled headings or carry an explicit `rule_class` field. A provenance legend by itself is not enough. Do not mix official requirements and heuristics in one unlabeled block.
 

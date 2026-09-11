@@ -1,5 +1,7 @@
 # Scientific Paper Figures
 
+English | [中文](README_CN.md)
+
 An evidence-first Codex skill for planning, designing, rendering, revising, and auditing scholarly figures and tables.
 
 It helps turn scientific claims and evidence into clear visual arguments while preserving provenance, editability, final-size legibility, and journal-specific constraints.
@@ -26,9 +28,9 @@ Structured artifacts pass between layers so later stages do not silently reinter
 
 The skill distinguishes three kinds of guidance:
 
-- `【文献/官方标准】` — requirements or guidance supported by a cited paper, publisher, journal, or authoritative body.
-- `【Skill 归纳规则】` — operational heuristics synthesized for this skill.
-- `【领域模板】` — domain-specific starting patterns that must be adapted to the manuscript and evidence.
+- `[Literature/Official Standard]` — requirements or guidance supported by a cited paper, publisher, journal, or authoritative body.
+- `[Skill-Derived Heuristic]` — operational heuristics synthesized for this skill.
+- `[Domain Template]` — domain-specific starting patterns that must be adapted to the manuscript and evidence.
 
 It does not invent data, methods, results, citations, licences, sample sizes, uncertainty, or journal requirements. When evidence is missing, it returns a provisional plan plus a missing-input manifest rather than creating publication-looking fictional evidence.
 

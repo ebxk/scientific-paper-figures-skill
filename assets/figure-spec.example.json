@@ -11,7 +11,7 @@
     }
   ],
   "layout": {
-    "rule_class": "Skill 归纳规则",
+    "rule_class": "Skill-Derived Heuristic",
     "reading_order": "left-to-right",
     "panel_grid": "one row, two panels",
     "final_width_mm": null
@@ -31,21 +31,21 @@
     }
   ],
   "visual_system": {
-    "rule_class": "Skill 归纳规则",
+    "rule_class": "Skill-Derived Heuristic",
     "background": "white",
     "font_role": "single standard sans-serif family",
     "color_roles": ["neutral context", "baseline", "proposed"],
     "color_redundancy": "direct labels and distinct marks"
   },
   "renderer": {
-    "rule_class": "Skill 归纳规则",
+    "rule_class": "Skill-Derived Heuristic",
     "backend": "project Python or R stack after inspection",
     "editable_source": true
   },
   "outputs": ["editable source", "vector export", "raster QA preview"],
   "open_questions": ["Target venue and final width are unknown."],
   "provenance": {
-    "rule_classes": ["文献/官方标准", "Skill 归纳规则", "领域模板"],
+    "rule_classes": ["Literature/Official Standard", "Skill-Derived Heuristic", "Domain Template"],
     "official_sources": [
       {
         "title": "Ten Simple Rules for Better Figures",

@@ -9,4 +9,4 @@ Load only the category needed for the current decision:
 
 URLs are starting points, not timeless snapshots. For submission, verify the exact journal, article type, figure type, and stage on the current official site.
 
-Never collapse 【Skill 归纳规则】 or 【领域模板】 into 【文献/官方标准】.
+Never collapse [Skill-Derived Heuristic] or [Domain Template] into [Literature/Official Standard].

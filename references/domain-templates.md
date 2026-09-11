@@ -1,6 +1,6 @@
 # Domain templates
 
-Everything in this file is 【领域模板】. These are candidate evidence chains, not required figures, fixed counts, or venue rules. Keep only items that trace to the manuscript's claims and available evidence.
+Everything in this file is [Domain Template]. These are candidate evidence chains, not required figures, fixed counts, or venue rules. Keep only items that trace to the manuscript's claims and available evidence.
 
 ## Applied statistics, economics, and finance
 

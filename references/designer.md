@@ -16,7 +16,7 @@ Record:
 - renderer, editable source, and exports;
 - journal rules pending verification.
 
-The function taxonomy is 【Skill 归纳规则】, not a universal standard.
+The function taxonomy is [Skill-Derived Heuristic], not a universal standard.
 
 ## 2. Analyze a reference figure
 
@@ -38,11 +38,11 @@ Do not start by tracing pixels. Build a Reference Figure Card:
 - **Independent redesign**: retain only abstract design principles; rebuild composition, labels, assets, and visual expression from the user's evidence.
 - **Do not proceed**: if requested reuse would violate rights or attribution requirements.
 
-【文献/官方标准】Open access does not mean attribution-free. Springer Nature states that qualifying OA figure reuse requires correct authorship/citation and publisher identification; subscription content may require formal permission. See [OA figure reuse](https://support.springernature.com/en/support/solutions/articles/6000217050-use-of-an-open-access-figure-or-table) and [author copyright information](https://support.springernature.com/en/support/solutions/articles/6000080095-author-copyrights-information).
+[Literature/Official Standard] Open access does not mean attribution-free. Springer Nature states that qualifying OA figure reuse requires correct authorship/citation and publisher identification; subscription content may require formal permission. See [OA figure reuse](https://support.springernature.com/en/support/solutions/articles/6000217050-use-of-an-open-access-figure-or-table) and [author copyright information](https://support.springernature.com/en/support/solutions/articles/6000080095-author-copyrights-information).
 
 ## 3. Choose the layout grammar
 
-【Skill 归纳规则】Match layout to the real relationship:
+[Skill-Derived Heuristic] Match layout to the real relationship:
 
 | Logic | Default layout |
 |---|---|
@@ -57,7 +57,7 @@ Do not draw a loop, hierarchy, or hub merely for visual drama.
 
 ### Module hierarchy
 
-【Skill 归纳规则】Try 3–6 primary groups as a first-pass readability heuristic, never as a standard. Prefer two visible hierarchy levels. If more are necessary, use panels or an overview-plus-detail pair.
+[Skill-Derived Heuristic] Try 3–6 primary groups as a first-pass readability heuristic, never as a standard. Prefer two visible hierarchy levels. If more are necessary, use panels or an overview-plus-detail pair.
 
 ### Grid and spacing
 
@@ -82,17 +82,17 @@ Connect from consistent box-edge anchors. Minimize crossings by changing groupin
 
 Use a formula inside a module only when it identifies that module or states its core transformation in one short line. Put long derivations in the manuscript or caption. Preserve variable italics, operators, superscripts, subscripts, and symbol definitions across manuscript and figure.
 
-【文献/官方标准】For general mathematical typography principles, see [Ten Simple Rules for Typographically Appealing Scientific Texts](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008458). Apply the target venue's own style when it differs.
+[Literature/Official Standard] For general mathematical typography principles, see [Ten Simple Rules for Typographically Appealing Scientific Texts](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008458). Apply the target venue's own style when it differs.
 
 ## 6. Compose multi-panel figures
 
 Combine panels only when they jointly answer one reader question. Give every panel a job in the evidence chain. Use one dominant panel when the evidence has a dominant claim; equal-sized grids are not mandatory.
 
-【文献/官方标准】Nature's own production guide asks for neat, space-efficient panel arrangement and alphabetical order where possible, with panel sizes driven by content and legibility. This is Nature-specific. See [Building and exporting figure panels](https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/).
+[Literature/Official Standard] Nature's own production guide asks for neat, space-efficient panel arrangement and alphabetical order where possible, with panel sizes driven by content and legibility. This is Nature-specific. See [Building and exporting figure panels](https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/).
 
 ## 7. Use a restrained scientific visual system
 
-【Skill 归纳规则】Start from:
+[Skill-Derived Heuristic] Start from:
 
 - white or transparent background;
 - one type family;
@@ -107,7 +107,7 @@ Use color redundantly with labels, shapes, patterns, or line styles. Test the ex
 
 The caption identifies the question/claim, panels, encodings, units, uncertainty, sample/replicate meaning, abbreviations, and necessary conditions. It must not introduce unsupported results.
 
-【文献/官方标准】PLOS treats captions as essential to explaining how to read a figure. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833).
+[Literature/Official Standard] PLOS treats captions as essential to explaining how to read a figure. See [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833).
 
 ## Designer output
 

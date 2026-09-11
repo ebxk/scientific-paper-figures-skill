@@ -1,6 +1,6 @@
 # Official standards and integrity sources
 
-Rules here are 【文献/官方标准】 only within the scope stated. Re-check the live official page for submission-critical decisions.
+Rules here are [Literature/Official Standard] only within the scope stated. Re-check the live official page for submission-critical decisions.
 
 - Nature Research Figure Guide, [Building and exporting figure panels](https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/). Nature-specific widths, font range, panel arrangement, accessibility advice, editable text/layers, and accepted formats. Checked 2026-09-11.
 - Elsevier, [Graphical abstract guidance](https://www.elsevier.com/researcher/author/tools-and-resources/graphical-abstract). Elsevier graphical-abstract dimensions, fonts, formats, and whitespace guidance. Scope is graphical abstracts, not all figures. Checked 2026-09-11.
